@@ -1,0 +1,35 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    background-color: #F2EFC7;
+    padding: 10px;
+    color: #4b3b31;
+}
+
+a {
+    color: #9F7E69;
+}
+
+h1 {
+    font-size: 1.6rem;
+    background-color: #F7FFE0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+h4 {
+    font-size: 1.1rem;
+}
+
+li {
+    margin: 10px;
+    font-size: 16px;
+}
