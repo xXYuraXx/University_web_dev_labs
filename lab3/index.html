@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lab 3</title>
+</head>
+<body>
+    <main class="app">
+        <h1>Генератор паролів</h1>
+
+        <section class="card">
+            <div class="password-row">
+                <input id="passwordOutput" type="text" readonly>
+                <button id="copyBtn" type="button">КОПІЯ</button>
+            </div>
+
+            <div class="length-row">
+                <input id="lengthRange" type="range" min="4" max="32" value="14">
+                <div id="lengthValue" class="length-value">14</div>
+            </div>
+
+            <div class="options-grid">
+                <label><input id="lowercase" type="checkbox" checked> az</label>
+                <label><input id="uppercase" type="checkbox" checked> AZ</label>
+                <label><input id="numbers" type="checkbox" checked> 0-9</label>
+                <label><input id="symbols" type="checkbox" checked> !@$#%^*</label>
+            </div>
+
+            <button id="generateBtn" type="button" class="generate-btn">ГЕНЕРУВАТИ</button>
+        </section>
+    </main>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
